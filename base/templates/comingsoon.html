@@ -1,0 +1,112 @@
+<!DOCTYPE >
+{% load static %}
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="tab icon"
+      type="image/png"
+      href="https://scontent.ftia12-1.fna.fbcdn.net/v/t39.30808-6/277753040_379012254231797_3240951592674593759_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=t41_KnA2mOsAX8VYwZA&_nc_ht=scontent.ftia12-1.fna&oh=00_AT9rQzqqrqkuVo08Xn358dvKa3904ktGUkpxEV56yahIvg&oe=62DD3CDE"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="{% static "css/comingsoon.css" %}">
+    <link rel="stylesheet" href="{% static 'css/nav.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}" />
+    <script src="{% static 'js/navresp.js' %}"></script>
+  </head>
+
+  <body>
+    <div class="background">
+      {% include "nav.html" %}
+      <div class="middle">
+        <h1>COMING SOON</h1>
+        <hr />
+        <p>Next week</p>
+        <p>
+          Below you will find some of the best movies from different categories
+          that will be available next week...
+        </p>
+      </div>
+    </div>
+    <div class="gallery">
+      <figure>
+        <img
+          src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcReXTb0ovI3Y0LCEEg2_VEyIqm73i-PDegxJaJaIBZh92s_LFK4"
+          width="100%"
+        />
+        <figcaption>
+          TUESDAY <br />
+          21:00
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img
+          src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQeQ26eky-Cp_SXUJXxlgQTQEEc9esN9ctc7kXlaF8yzdvl2E3z"
+          width="100%"
+        />
+        <figcaption>
+          WEDNESDAY<br />
+          21:00
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img
+          src="http://www.movienewsletters.net/photos/191384R1.jpg"
+          width="100%"
+        />
+        <figcaption>
+          THURSDAY<br />
+          21:00
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img
+          src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRChDQITIVlqysDK2HpjYdrc_ip-4hujzLAv_Yuggv8z1SJ_6qD"
+          width="100%"
+        />
+        <figcaption>
+          FRIDAY <br />
+          21:00
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img
+          src="https://static.wikia.nocookie.net/jumanji/images/1/1b/Jumanji_2017_Poster.jpg/revision/latest/scale-to-width-down/1200?cb=20181023182751"
+          width="200px"
+          height="300px"
+        />
+        <figcaption>SATURDAY <br />21:00</figcaption>
+      </figure>
+
+      <figure>
+        <img
+          src="https://m.media-amazon.com/images/M/MV5BMzEwMWUzNTItZDQ2ZC00ZjlhLWE1ODMtYjk1ZWMwNTlhYjE5XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg"
+          width="200px"
+          height="300px"
+        />
+        <figcaption>
+          SUNDAY<br />
+          21:00
+        </figcaption>
+      </figure>
+    </div>
+    {% include 'footer.html' %}
+  </body>
+</html>

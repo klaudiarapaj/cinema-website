@@ -1,0 +1,37 @@
+footer {
+  bottom: 0px;
+  position: relative;
+}
+
+.copyrightcolor {
+  color: rgb(181, 218, 229);
+}
+
+.footerbg {
+  background-color: #01305e;
+}
+
+.fontcolor {
+  color: rgb(181, 218, 229);
+}
+
+.fontcolort {
+  color: rgb(181, 218, 229);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fontcolort a {
+  text-decoration: none;
+}
+
+.rowc {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and(max-width:1239px) {
+  .fa i,
+  .fontcolort i {
+    font-size: 5px;
+  }
+}

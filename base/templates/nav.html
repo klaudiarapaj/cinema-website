@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<div class="contactbar">
+    <li> <a href="tel:069-526-7186">Reserve:</a></li>
+    <li> <a href="tel:069-526-7186">+355695267186</a></li>
+    <li> <a href="mailto:arberminxhozi1@gmail.com">Contact:</a></li>
+    <li> <a href="mailto:arberminxhozi1@gmail.com">arberminxhozi1@gmail.com</a></li>
+  </div>
+
+<div class="logo">
+    <a href="{% url "home"%}">
+    <img src="{% static "images/logo.png" %}" alt="logo" style="width:50%">
+  </a>
+  </div>
+  <nav class="nav-bar" id="navid">
+    <ul class="nav-list">
+    <li class="list-item"><a href="{% url "home"%}">Home</a></li>
+      <li class="list-item"><a href="{% url "movies"%}">Movies</a></li>
+      <li class="list-item"><a href="{% url "comingsoon"%}">Coming Soon</a></li>
+      <li class="list-item"><a href="{% url "others"%}">Others</a></li>
+      <li class="list-item"><a href="{% url "about"%}">About Us</a></li>
+      <li class="list-item"> <a href="{% url "contact"%}">Contact</a></li>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </ul>
+
+  </nav>

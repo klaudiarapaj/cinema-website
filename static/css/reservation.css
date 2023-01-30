@@ -1,0 +1,142 @@
+body {
+  margin: 0 auto;
+  background: -webkit-linear-gradient(left, #01305e, #dd0a0a) fixed no-repeat;
+  font-family: Impact !important;
+}
+
+.logo {
+  display: none;
+}
+
+.contactbar {
+  top: 0px;
+}
+div.elem-group {
+  margin: 20px 0;
+}
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+}
+
+label {
+  display: block;
+  font-family: "Nanum Gothic";
+  font-size: 1.25em;
+  color: azure;
+}
+
+input,
+select,
+textarea {
+  border-radius: 25px;
+  border: 2px solid rgba(0, 0, 0, 0.932);
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: "Nanum Gothic";
+  width: 100%;
+  padding: 10px;
+}
+
+div.elem-group.inlined input {
+  width: 100%;
+  display: inline-block;
+}
+
+button {
+  height: 50px;
+  background: rgb(1, 19, 59);
+  border: none;
+  color: white;
+  font-size: 1.25em;
+  font-family: "Nanum Gothic";
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.reserve {
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+
+.reserve h2 {
+  color: rgb(255, 255, 255);
+  font-family: Impact !important;
+  font-size: 40px;
+}
+
+form {
+  margin-top: 150px;
+}
+
+@media only screen and (min-width: 900px) {
+  input,
+  select,
+  textarea {
+    font-size: 15px;
+  }
+  .reserve {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  input,
+  select,
+  textarea {
+    font-size: 10px;
+  }
+
+  div.elem-group.inlined {
+    font-size: large;
+    width: 45%;
+  }
+
+  div.elem-group {
+    font-size: large;
+  }
+
+  .reserve h2 {
+    font-size: xx-large;
+  }
+
+  button {
+    height: 50px;
+    font-size: x-large;
+  }
+
+  form {
+    size: 50%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  input,
+  select,
+  textarea,
+  label {
+    font-size: 6px;
+  }
+
+  button {
+    font-size: 6px;
+  }
+
+  b {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 2520px) {
+  .nav-list .icon {
+    display: none;
+  }
+}

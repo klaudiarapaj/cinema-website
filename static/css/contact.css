@@ -1,0 +1,166 @@
+.logo {
+  display: none;
+}
+.s1 {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.s2 {
+  display: inline-block;
+}
+
+.contactbar {
+  background-color: #01305e;
+}
+
+.nav-list {
+  background-color: #01305e;
+}
+
+body {
+  width: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  margin: none;
+  padding: none;
+  background-color: #01305e;
+  font-family: Impact;
+}
+
+.contain {
+  width: 100%;
+  /* position: absolute;
+  top: 1010px; */
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.contain h2 {
+  margin-left: 25%;
+}
+
+form {
+  margin-left: 25%;
+  width: 50%;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+#subject {
+  height: 60px;
+}
+
+input[type="submit"] {
+  font-size: medium;
+  background-color: #ffffff;
+  color: rgb(37, 117, 221);
+  padding: 10px 25px;
+  border: 7px;
+  border-color: bisque;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #06021f;
+}
+
+.contact {
+  position: absolute;
+  left: 50px;
+  top: 400px;
+  background-color: #01305e;
+  border: 20px solid rgba(154, 208, 252, 0.801);
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+}
+
+.contact a,
+.contact div {
+  font-size: 20px;
+}
+
+a {
+  color: antiquewhite;
+}
+
+.mapouter {
+  position: relative;
+  height: 1000px;
+  width: 100%;
+  filter: opacity(0.8);
+}
+
+.gmap {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%;
+}
+
+#gmap_canvas {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 2560px) {
+  .nav-list .icon {
+    display: none;
+  }
+
+  .s2 {
+    display: block;
+  }
+  .contact {
+    font-size: xx-large;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .s2 {
+    display: block;
+  }
+  .contact {
+    font-size: x-large;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .s2 {
+    display: block;
+  }
+  .contact {
+    font-size: 10px;
+  }
+}
+
+/* @media only screen and (max-width: 425px) {
+  .contact {
+    left: 50px;
+    font-size: medium;
+  }
+} */
+@media only screen and (max-width: 425px) {
+  .contact {
+    left: 45px;
+    font-size: small;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .contact {
+    left: 35px;
+    font-size: x-small;
+  }
+}

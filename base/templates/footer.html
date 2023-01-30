@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+{% load static %}
+  <footer class="text-center text-lg-start bg text-muted fontcolor ">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom footerbg ">
+    </section>
+
+    <section class="footerbg">
+      <div class="container text-center text-md-start footerbg">
+        <div class="row mt-3">
+
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-">
+            <h6 class="text-uppercase fw-bold mb-4 fontcolor">
+              Open Air Tirana
+            </h6>
+            <p class="fontcolort">Open Air Tirana is a Outdoor Cinema playing best classic movies.
+              If you are in the city, You can enjoy a movie under the stars !!
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4 fontcolor">
+              Products
+            </h6>
+            <p class="fontcolort">
+              <a href="{% url "movies"%}" class="text-reset ">Movies</a>
+            </p>
+            <p class="fontcolort">
+              <a href="" class="text-reset ">Coming Soon</a>
+            </p>
+            <p class="fontcolort">
+              <a href="{% url "others"%}" class="text-reset">Others</a>
+            </p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 fontcolor rowc">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p class="fontcolort">
+              <i style="font-size:19px" class="fa">&#xf041;</i>
+              Liqeni Artificial, Tirana
+            </p>
+            <p class="fontcolort">
+              <i style="font-size:14px" class="fa">&#xf0e0;</i>
+              arberminxhozi1@gmail.com
+            </p>
+            <p class="fontcolort">
+              <i style="font-size:18px" class="fa">&#xf095;</i>
+              +355695267186
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center p-4 copyrightcolor border-top hm" style="background-color: #01305e ">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold fontcolort"
+        href="{% url "home"%}">OpenAirTirana.com</a>
+    </div>
+  </footer>

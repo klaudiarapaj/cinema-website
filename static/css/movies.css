@@ -1,0 +1,303 @@
+.fontcolor {
+  font-size: 10px;
+  font-family: impact;
+}
+
+.fontcolort {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fontcolor h6 {
+  font-family: impact;
+  font-size: 10px;
+}
+.logo {
+  display: none;
+}
+
+.contactbar {
+  font-size: 10px;
+}
+
+.nav-bar {
+  font-size: 25px;
+}
+
+.contactbar {
+  top: 0px;
+}
+
+.logo {
+  display: none;
+}
+
+.gallery .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+figure {
+  width: 280px;
+  margin: 20px 20px;
+  background-color: white;
+  border: 1px solid;
+}
+
+figcaption {
+  text-align: center;
+  padding: 10px;
+  color: rgb(98, 72, 41);
+}
+
+figcaption:hover {
+  opacity: 0.5;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+.card {
+  background-color: #01305e;
+}
+
+.text {
+  position: relative;
+  color: aliceblue;
+  width: 30%;
+  border: 2px solid #d5f3fe;
+  text-align: center;
+  padding: 10px;
+}
+
+.style {
+  position: relative;
+  left: 20px;
+  text-align: left;
+  border-left: 5px solid red;
+  padding: 10px;
+}
+
+.movies {
+  width: 100%;
+  position: relative;
+  top: 0;
+}
+
+body {
+  width: full-width;
+  background-color: #01305e !important;
+  font-family: impact;
+}
+
+img {
+  width: 100%;
+}
+
+.starr {
+  position: absolute;
+  top: 540px;
+  right: 430px;
+  font-size: xx-large;
+  color: white;
+  -ms-transform: rotate(-12deg);
+  transform: rotate(-12deg);
+  text-align: center;
+}
+
+.star {
+  position: absolute;
+  top: 10px;
+  font-size: xx-large;
+  color: white;
+}
+
+.fontcolor,
+.fontcolort {
+  padding: auto;
+  margin: 0px 0px 10px;
+}
+
+.fontcolort p {
+  margin: 0px 0px 10px;
+}
+
+.hm {
+  padding: 10px !important;
+}
+
+h1 {
+  position: absolute;
+  top: 400px;
+  left: 50px;
+  color: white;
+  font-family: impact;
+  z-index: 11;
+  font-size: 50px;
+}
+@media only screen and (max-width: 2560px) {
+  .starr {
+    top: 940px;
+    right: 800px;
+  }
+  .star {
+    top: 550px;
+    margin-left: 250px;
+  }
+
+  .nav-list .icon {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  h1 {
+    font-size: 40px;
+    top: 250px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .card {
+    font-size: small;
+  }
+
+  .contactbar {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 40px;
+    top: 245px;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  h1 {
+    font-size: 30px;
+    top: 200px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    font-size: small;
+  }
+  figure {
+    width: 200px;
+  }
+  .text {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 30px;
+    top: 180px;
+  }
+  .contactbar {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  h1 {
+    font-size: 30px;
+    top: 170px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 30px;
+    top: 160px;
+    left: 40px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  h1 {
+    font-size: 25px;
+    top: 160px;
+    left: 40px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  h1 {
+    font-size: 23px;
+    top: 140px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  h1 {
+    font-size: 20px;
+    top: 140px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  h1 {
+    font-size: 18x;
+    top: 120px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .card {
+    flex-wrap: wrap;
+    font-size: x-small;
+  }
+  figure {
+    width: 200px;
+  }
+  .text {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 15px;
+    top: 100px;
+  }
+  .contactbar {
+    font-size: 5px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .card {
+    flex-wrap: wrap;
+    font-size: x-small;
+  }
+  figure {
+    width: 200px;
+  }
+  .text {
+    width: 60%;
+    overflow: hidden;
+  }
+
+  h1 {
+    font-size: 13px;
+    top: 90px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .card {
+    flex-wrap: wrap;
+    font-size: 8px;
+  }
+  figure {
+    width: 150px;
+  }
+  .text {
+    width: 70%;
+    overflow: hidden;
+    padding: 5px 0;
+  }
+
+  h1 {
+    font-size: 10px;
+    top: 80px;
+    left: 40px;
+  }
+}
